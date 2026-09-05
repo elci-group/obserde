@@ -38,7 +38,7 @@ serde = { version = "1", features = ["derive"] }
 #   approximation, not always bit-exact — verified empirically via
 #   obserde-json's decode(encode(x))==x property test failing without it.
 serde_json = { version = "1", features = ["preserve_order", "float_roundtrip"] }
-thiserror = "1"
+thiserror = "2"
 sha2 = "0.10"
 proptest = "1"
 base64 = "0.22"
