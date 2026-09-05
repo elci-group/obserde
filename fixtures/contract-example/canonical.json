@@ -1,0 +1,58 @@
+{
+  "map": [
+    [
+      "project",
+      {
+        "string": "elci.uni"
+      }
+    ],
+    [
+      "summary",
+      {
+        "string": "Initial baseline assessment of the elci.uni project."
+      }
+    ],
+    [
+      "score",
+      {
+        "integer": 82
+      }
+    ],
+    [
+      "domains",
+      {
+        "map": [
+          [
+            "reliability",
+            {
+              "integer": 90
+            }
+          ],
+          [
+            "security",
+            {
+              "integer": 78
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      "assessed_at",
+      {
+        "string": "2026-09-05T12:00:00Z"
+      }
+    ],
+    [
+      "signature",
+      {
+        "bytes": [
+          222,
+          173,
+          190,
+          239
+        ]
+      }
+    ]
+  ]
+}

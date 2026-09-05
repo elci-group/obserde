@@ -1,0 +1,12 @@
+[package]
+name = "obserde-value"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "The Obserde Document value tree: a format-agnostic decoded value, independent of any wire encoding or Rust domain type."
+
+[dependencies]
+obserde-core.workspace = true
+serde.workspace = true
+thiserror.workspace = true

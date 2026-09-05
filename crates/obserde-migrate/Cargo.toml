@@ -1,0 +1,15 @@
+[package]
+name = "obserde-migrate"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Migration definition, execution, and graph-based planning between Obserde Schema versions."
+
+[dependencies]
+obserde-core.workspace = true
+obserde-schema.workspace = true
+obserde-value.workspace = true
+obserde-validate.workspace = true
+serde.workspace = true
+thiserror.workspace = true

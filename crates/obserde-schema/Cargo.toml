@@ -1,0 +1,12 @@
+[package]
+name = "obserde-schema"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "The Obserde schema language: Schema, Field, Type, Constraint."
+
+[dependencies]
+obserde-core.workspace = true
+serde.workspace = true
+thiserror.workspace = true

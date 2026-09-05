@@ -1,0 +1,4 @@
+[[file]]
+path = ".claude/CLAUDE.md"
+tool = "claude"
+sha256 = "d0609c6f51d323c659e28a40e2908af1f1f87e76c90faf7412f78b4783bc21e6"

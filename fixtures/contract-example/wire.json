@@ -1,0 +1,11 @@
+{
+  "project": "elci.uni",
+  "summary": "Initial baseline assessment of the elci.uni project.",
+  "score": 82,
+  "domains": {
+    "reliability": 90,
+    "security": 78
+  },
+  "assessed_at": "2026-09-05T12:00:00Z",
+  "signature": "3q2+7w=="
+}

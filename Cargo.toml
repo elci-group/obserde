@@ -1,0 +1,44 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/obserde-core",
+    "crates/obserde-schema",
+    "crates/obserde-value",
+    "crates/obserde-validate",
+    "crates/obserde-canonical",
+    "crates/obserde-json",
+    "crates/obserde-compat",
+    "crates/obserde-migrate",
+    "crates/obserde-padagonia",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["elci-group"]
+repository = "https://github.com/elci-group/obserde"
+
+[workspace.dependencies]
+obserde-core = { path = "crates/obserde-core" }
+obserde-schema = { path = "crates/obserde-schema" }
+obserde-value = { path = "crates/obserde-value" }
+obserde-validate = { path = "crates/obserde-validate" }
+obserde-canonical = { path = "crates/obserde-canonical" }
+obserde-json = { path = "crates/obserde-json" }
+obserde-compat = { path = "crates/obserde-compat" }
+obserde-migrate = { path = "crates/obserde-migrate" }
+obserde-padagonia = { path = "crates/obserde-padagonia" }
+
+serde = { version = "1", features = ["derive"] }
+# preserve_order: Value::Object preserves original key order (obserde-json
+#   needs this; a no-op for the typed Schema/Document (de)serialization
+#   Phase 0/1 already used).
+# float_roundtrip: without it, serde_json's default float parser is a fast
+#   approximation, not always bit-exact — verified empirically via
+#   obserde-json's decode(encode(x))==x property test failing without it.
+serde_json = { version = "1", features = ["preserve_order", "float_roundtrip"] }
+thiserror = "1"
+sha2 = "0.10"
+proptest = "1"
+base64 = "0.22"

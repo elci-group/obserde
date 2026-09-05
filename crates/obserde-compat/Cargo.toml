@@ -1,0 +1,13 @@
+[package]
+name = "obserde-compat"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Schema diff and compatibility analysis between two Obserde Schema versions."
+
+[dependencies]
+obserde-core.workspace = true
+obserde-schema.workspace = true
+obserde-value.workspace = true
+serde.workspace = true

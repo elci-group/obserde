@@ -1,0 +1,12 @@
+[project]
+name = "obserde"
+
+[tools]
+claude = true
+lwoodz = true
+traci = true
+
+[rules]
+documentation = true
+security = true
+testing = true

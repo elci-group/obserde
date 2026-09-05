@@ -1,0 +1,35 @@
+{
+  "map": [
+    [
+      "project",
+      {
+        "string": "elci.uni"
+      }
+    ],
+    [
+      "score",
+      {
+        "integer": 142
+      }
+    ],
+    [
+      "domains",
+      {
+        "map": [
+          [
+            "security",
+            {
+              "integer": 78
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      "assessed_at",
+      {
+        "string": "2026-09-05T12:00:00Z"
+      }
+    ]
+  ]
+}

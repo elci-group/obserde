@@ -1,0 +1,83 @@
+{
+  "contract": {
+    "namespace": "elci.uni",
+    "name": "snapshot",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "patch": 0
+    },
+    "revision": 0
+  },
+  "fields": [
+    {
+      "name": "project",
+      "ty": "String",
+      "required": true,
+      "constraints": [
+        {
+          "Pattern": {
+            "grammar": "identifier"
+          }
+        }
+      ],
+      "description": "dotted identifier of the assessed project"
+    },
+    {
+      "name": "summary",
+      "ty": "String",
+      "required": true,
+      "constraints": [
+        {
+          "Length": {
+            "min": null,
+            "max": 200
+          }
+        }
+      ],
+      "description": "short human-readable summary, max 200 characters"
+    },
+    {
+      "name": "score",
+      "ty": "Integer",
+      "required": true,
+      "constraints": [
+        {
+          "Range": {
+            "min": 0.0,
+            "max": 100.0
+          }
+        }
+      ],
+      "description": "overall assessment score"
+    },
+    {
+      "name": "domains",
+      "ty": {
+        "Map": [
+          "String",
+          "Integer"
+        ]
+      },
+      "required": true,
+      "constraints": [],
+      "description": "per-domain scores; Phase 1 does not constrain individual map entries"
+    },
+    {
+      "name": "assessed_at",
+      "ty": "Timestamp",
+      "required": true,
+      "constraints": [],
+      "description": "when this assessment was produced"
+    },
+    {
+      "name": "signature",
+      "ty": "Bytes",
+      "required": false,
+      "constraints": [
+        "NonEmpty"
+      ],
+      "description": "optional detached signature over the assessment, added in Phase 2 to give Type::Bytes a real worked example"
+    }
+  ]
+}

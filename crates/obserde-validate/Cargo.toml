@@ -1,0 +1,17 @@
+[package]
+name = "obserde-validate"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Structural and constraint validation of a Document against a Schema."
+
+[dependencies]
+obserde-core.workspace = true
+obserde-schema.workspace = true
+obserde-value.workspace = true
+serde.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+serde_json.workspace = true

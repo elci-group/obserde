@@ -1,0 +1,11 @@
+[package]
+name = "obserde-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Contract identity and schema versioning primitives for Obserde."
+
+[dependencies]
+serde.workspace = true
+thiserror.workspace = true
