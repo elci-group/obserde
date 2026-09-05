@@ -91,12 +91,9 @@ impl Contract {
             .next()
             .ok_or_else(|| invalid("missing '/version' segment"))?;
 
-        let mut segments: Vec<&str> = path.split('.').collect();
-        if segments.len() < 2 {
-            return Err(invalid("namespace.name must contain at least two dotted segments"));
-        }
-        let name = segments.pop().expect("checked len >= 2");
-        let namespace = segments.join(".");
+        let (namespace, name) = path
+            .rsplit_once('.')
+            .ok_or_else(|| invalid("namespace.name must contain at least two dotted segments"))?;
 
         let (version_str, revision_str) = match version_part.split_once('+') {
             Some((v, r)) => (v, Some(r)),
@@ -112,7 +109,7 @@ impl Contract {
             None => 0,
         };
 
-        Self::new(namespace, name.to_string(), version, revision)
+        Self::new(namespace, name, version, revision)
     }
 
     pub fn namespace(&self) -> &str {
