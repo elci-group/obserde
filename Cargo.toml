@@ -41,4 +41,4 @@ serde_json = { version = "1", features = ["preserve_order", "float_roundtrip"] }
 thiserror = "1"
 sha2 = "0.10"
 proptest = "1"
-base64 = "0.22"
+base64 = "0.23"
