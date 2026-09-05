@@ -35,6 +35,15 @@ patch = 0.1    # score at or above this bumps Patch; below it, no commit
 enabled = true
 branch = "main"
 
+# Default protect_branches is ["main", "master"] (kaptaind's own safety
+# default against a daemon silently pushing straight to a typical
+# production branch name). Obserde is a single-branch library repo with
+# no separate staging/production lifecycle, and "main" *is* the intended
+# push target here, so that default is explicitly overridden rather than
+# left to silently block every push.
+[push.safety]
+protect_branches = []
+
 [ratelimit]
 min_commit_interval = 10
 
