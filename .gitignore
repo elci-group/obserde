@@ -1,3 +1,8 @@
 /target
 Cargo.lock
-/.kaptaind
+
+# uni/lwoodz/traci/kaptaind run artifacts — regenerated per analysis run, not source
+/.uni/
+/.lwoodz/
+/.traci/
+/.kaptaind/
