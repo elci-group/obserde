@@ -1,0 +1,845 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "created": "2026-09-05T15:26:30.878715665+00:00",
+    "creators": [
+      "Tool: lwoodz-0.4.8",
+      "Person: sal"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://lwoodz.dev/spdx/obserde-1788621990",
+  "generatedBy": "lwoodz 0.4.8",
+  "name": "obserde",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-Project",
+      "copyrightText": "Copyright (c) 2026 sal",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "obserde"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-autocfg",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 OR MIT",
+      "licenseDeclared": "Apache-2.0 OR MIT",
+      "name": "autocfg"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-base64",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "base64"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bit-set",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 OR MIT",
+      "licenseDeclared": "Apache-2.0 OR MIT",
+      "name": "bit-set"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bit-vec",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 OR MIT",
+      "licenseDeclared": "Apache-2.0 OR MIT",
+      "name": "bit-vec"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-bitflags",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "bitflags"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-block-buffer",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "block-buffer"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-cfg-if",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "cfg-if"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-cpufeatures",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "cpufeatures"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-crypto-common",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "crypto-common"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-digest",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "digest"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-equivalent",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 OR MIT",
+      "licenseDeclared": "Apache-2.0 OR MIT",
+      "name": "equivalent"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-errno",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "errno"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-fastrand",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 OR MIT",
+      "licenseDeclared": "Apache-2.0 OR MIT",
+      "name": "fastrand"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-fnv",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 / MIT",
+      "licenseDeclared": "Apache-2.0 / MIT",
+      "name": "fnv"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-generic-array",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "generic-array"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-getrandom",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "getrandom"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-hashbrown",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "hashbrown"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-indexmap",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 OR MIT",
+      "licenseDeclared": "Apache-2.0 OR MIT",
+      "name": "indexmap"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-itoa",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "itoa"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libc",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "libc"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-linux-raw-sys",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "name": "linux-raw-sys"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-memchr",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Unlicense OR MIT",
+      "licenseDeclared": "Unlicense OR MIT",
+      "name": "memchr"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-num-traits",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "num-traits"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-once-cell",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "once_cell"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-ppv-lite86",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "ppv-lite86"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-proc-macro2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "proc-macro2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-proptest",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "proptest"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-quick-error",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT/Apache-2.0",
+      "licenseDeclared": "MIT/Apache-2.0",
+      "name": "quick-error"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-quote",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "quote"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-r-efi",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+      "licenseDeclared": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+      "name": "r-efi"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-rand",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "rand"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-rand-chacha",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "rand_chacha"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-rand-core",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "rand_core"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-rand-xorshift",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "rand_xorshift"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-regex-syntax",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "regex-syntax"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-rustix",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "name": "rustix"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-rusty-fork",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT/Apache-2.0",
+      "licenseDeclared": "MIT/Apache-2.0",
+      "name": "rusty-fork"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-serde",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "serde"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-serde-core",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "serde_core"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-serde-derive",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "serde_derive"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-serde-json",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "serde_json"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-sha2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "sha2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-syn",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "syn"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-tempfile",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "tempfile"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-thiserror",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "thiserror"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-thiserror-impl",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "thiserror-impl"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-typenum",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "typenum"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-unarray",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "unarray"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-unicode-ident",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "licenseDeclared": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "name": "unicode-ident"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-version-check",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT/Apache-2.0",
+      "licenseDeclared": "MIT/Apache-2.0",
+      "name": "version_check"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-wait-timeout",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT/Apache-2.0",
+      "licenseDeclared": "MIT/Apache-2.0",
+      "name": "wait-timeout"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-wasip2",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "name": "wasip2"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-windows-link",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "windows-link"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-windows-sys",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT OR Apache-2.0",
+      "licenseDeclared": "MIT OR Apache-2.0",
+      "name": "windows-sys"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-wit-bindgen",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "name": "wit-bindgen"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-zerocopy",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "licenseDeclared": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "name": "zerocopy"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-zerocopy-derive",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "licenseDeclared": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "name": "zerocopy-derive"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-zmij",
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "name": "zmij"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Package-Project",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-autocfg",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-base64",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-bit-set",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-bit-vec",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-bitflags",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-block-buffer",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-cfg-if",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-cpufeatures",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-crypto-common",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-digest",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-equivalent",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-errno",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-fastrand",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-fnv",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-generic-array",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-getrandom",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-hashbrown",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-indexmap",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-itoa",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-libc",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-linux-raw-sys",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-memchr",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-num-traits",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-once-cell",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-ppv-lite86",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-proc-macro2",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-proptest",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-quick-error",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-quote",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-r-efi",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-rand",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-rand-chacha",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-rand-core",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-rand-xorshift",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-regex-syntax",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-rustix",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-rusty-fork",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-serde",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-serde-core",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-serde-derive",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-serde-json",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-sha2",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-syn",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-tempfile",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-thiserror",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-thiserror-impl",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-typenum",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-unarray",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-unicode-ident",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-version-check",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-wait-timeout",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-wasip2",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-windows-link",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-windows-sys",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-wit-bindgen",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-zerocopy",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-zerocopy-derive",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    },
+    {
+      "relatedSpdxElement": "SPDXRef-Package-zmij",
+      "relationshipType": "DEPENDS_ON",
+      "spdxElementId": "SPDXRef-Package-Project"
+    }
+  ],
+  "spdxVersion": "SPDX-2.3"
+}
