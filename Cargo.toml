@@ -39,6 +39,6 @@ serde = { version = "1", features = ["derive"] }
 #   obserde-json's decode(encode(x))==x property test failing without it.
 serde_json = { version = "1", features = ["preserve_order", "float_roundtrip"] }
 thiserror = "1"
-sha2 = "0.10"
+sha2 = "0.11"
 proptest = "1"
 base64 = "0.22"
